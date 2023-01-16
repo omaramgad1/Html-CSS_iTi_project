@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Courses4u</title>
-  <link rel="icon" type="image/png" href="images/logo.png" />
-
-  <link rel="stylesheet" href="style/login_style.css">
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <link rel="stylesheet" href="../style/main.css">
+  <link rel="stylesheet" href="../style/login_style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.1/css/line.css">
-  <script src="scripts/index.js" defer></script>
+  <script src="../scripts/index.js" defer></script>
 </head>
 
 <body>
@@ -18,8 +18,8 @@
   <nav class="navbar">
     <div class="content">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt=""></a>
-        <a href="index.html"> <span>C</span>OURSES<span>4</span>U</a>
+        <a href="../index.html"><img src="../images/logo.png" alt=""></a>
+        <a href="../index.html"> <span>C</span>OURSES<span>4</span>U</a>
       </div>
 
       <ul class="menu-list">
@@ -27,7 +27,7 @@
         <div class="icon cancel-btn">
           <i class="uil uil-times"></i>
         </div>
-        <li><a href="index.html"><i class="uil uil-home"></i> Home</a></li>
+        <li><a href="../index.html"><i class="uil uil-home"></i> Home</a></li>
         <li><a href="contact_us.html"><i class="uil uil-envelope"></i> Contact Us</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="login.html" class="active">Login</a></li>
@@ -40,37 +40,37 @@
     </div>
   </nav>
 
-      <div class="form-container">
-        <h1> <span>L</span>ogin</h1>
-        <form>
+  <div class="form-container">
+    <h1> <span>L</span>ogin</h1>
+    <form>
 
-          <div class="form-control">
-            <label ><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" placeholder="Enter your Email"  required>
-            
-          </div>
-  
-          <div class="form-control" >
-            <label><i class="fa fa-lock"></i> Password </label>
-            <input type="password" placeholder="Enter your Password" required >
-          </div>
-          
-          <button class="login-btn">Login</button>
-          <p class="text">Don't have an account? <a href="register.html"> Register</a></p>
-          <p class="text"><a href="#"> Forget Your password?</a></p>
+      <div class="form-control">
+        <label><i class="fa fa-envelope"></i> Email</label>
+        <input type="text" placeholder="Enter your Email" required>
 
-        </form>
       </div>
+
+      <div class="form-control">
+        <label><i class="fa fa-lock"></i> Password </label>
+        <input type="password" placeholder="Enter your Password" required>
+      </div>
+
+      <button class="login-btn">Login</button>
+      <p class="text">Don't have an account? <a href="register.html"> Register</a></p>
+      <p class="text"><a href="#"> Forget Your password?</a></p>
+
+    </form>
+  </div>
 
 
   <div class="footer">
     <div class="footer-content">
       <div class="logo">
-        <img src="images/logo.png" alt="">
+        <img src="../images/logo.png" alt="">
         <h3><span>C</span>ourses<span>4</span>U</h3>
       </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus
-        odio sed!</p>
+      <p>This website is made during my ITI - 9 Months Scholarship in 2023. Feel free to navigate through the entire
+        website and send me your recommendations.</p>
       <ul class="socials">
         <li> <a href="#"><i class="fa-brands fa-square-facebook"></i> </a></li>
         <li><a href="#"><i class="fa-brands fa-square-twitter"></i><a></a></li>
@@ -85,12 +85,7 @@
 
   </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    let footerheight = document.querySelector(".footer").offsetHeight;
-    document.querySelector("body").style.paddingBottom = footerheight;
-});
-</script>
+
 </body>
 
 </html>
