@@ -209,10 +209,13 @@
     
         
     }
-
     .cards_wrap .card_item .meta {
   
         margin: 1px;
+    }
+    .cards_wrap .card_item .Card-header {
+  
+        font-size: 16px;
     }
 }
 
